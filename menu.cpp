@@ -19,6 +19,6 @@ int main() {
         cout<<"Total Yang Harus Dibayar Rp";
         cout<<total[i]<<endl;
     }
-    system(pause)
+    system(pause);
     return 0;
 }
