@@ -16,7 +16,7 @@ jobs:
 
       - name: Compile C++
         run: |
-          g++ main.cpp -o program.exe -static -O2
+          g++ menu.cpp -o program.exe -static -O2
 
       - name: Upload EXE
         uses: actions/upload-artifact@v4
